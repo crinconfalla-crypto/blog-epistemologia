@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="Blog académico interactivo sobre los sentidos de la epistemología y las discusiones científicas en las ciencias humanas y sociales.">
+        content="Blog académico interactivo sobre los sentidos de la epistemología y las discusiones científicas en las ciencias humanas y sociales.">
 
-    <meta name="author" content="Proyecto académico de epistemología">
+    <meta name="author"
+        content="Liseth Mariana Niño Hernández">
 
-    <title>Epistemología | ¿Cómo sabemos que sabemos?</title>
+    <title>
+        Los sentidos de la epistemología | Liseth Mariana Niño Hernández
+    </title>
 
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -17,90 +23,120 @@
 <body>
 
     <!-- =====================================================
-         ENCABEZADO / NAVEGACIÓN
+         ENCABEZADO
     ====================================================== -->
 
     <header class="site-header">
 
-        <div class="container nav-container">
+        <nav class="nav-container">
 
-            <a href="#inicio" class="logo">
-                EPISTEMOLOGÍA
-            </a>
+            <div class="logo">
+                EPIS<span>TE</span>MÉ
+            </div>
 
             <button class="menu-toggle"
-                    id="menuToggle"
-                    aria-label="Abrir menú">
+                aria-label="Abrir menú">
                 ☰
             </button>
 
-            <nav id="mainNav">
+            <div class="nav-links">
 
                 <a href="#inicio">Inicio</a>
-                <a href="#epistemologia">Epistemología</a>
-                <a href="#sentidos">Sentidos</a>
-                <a href="#autores">Autores</a>
-                <a href="#ciencias">Ciencias humanas</a>
-                <a href="#explicar-comprender">Explicar / Comprender</a>
-                <a href="#reflexion">Reflexión</a>
-                <a href="#referencias">Referencias</a>
 
-            </nav>
+                <a href="#epistemologia">
+                    Epistemología
+                </a>
 
-        </div>
+                <a href="#sentidos">
+                    Sentidos
+                </a>
+
+                <a href="#autores">
+                    Autores
+                </a>
+
+                <a href="#ciencias-sociales">
+                    Ciencias sociales
+                </a>
+
+                <a href="#reflexion">
+                    Reflexión
+                </a>
+
+                <a href="#referencias">
+                    Referencias
+                </a>
+
+            </div>
+
+        </nav>
 
     </header>
 
 
-    <main>
+    <!-- =====================================================
+         PORTADA
+    ====================================================== -->
 
-        <!-- =================================================
-             PORTADA
-        ================================================== -->
+    <main>
 
         <section id="inicio" class="hero">
 
-            <div class="hero-content container">
+            <div class="hero-content">
 
                 <span class="eyebrow">
                     BLOG ACADÉMICO INTERACTIVO
                 </span>
 
                 <h1>
-                    ¿Cómo sabemos
-                    <span>que sabemos?</span>
+                    Los sentidos de la
+                    <span>epistemología</span>
                 </h1>
 
                 <p class="hero-subtitle">
-                    Una exploración de los sentidos de la epistemología
-                    y de las discusiones científicas en las ciencias
-                    humanas y sociales.
+                    Una aproximación a la construcción del conocimiento,
+                    la ciencia y los discursos epistemológicos en las
+                    ciencias humanas y sociales.
                 </p>
 
-                <div class="hero-actions">
+                <div class="academic-card">
 
-                    <a href="#epistemologia" class="btn btn-primary">
-                        Explorar el conocimiento
-                    </a>
+                    <div>
+                        <strong>Autora</strong>
+                        <p>
+                            Liseth Mariana Niño Hernández
+                        </p>
+                    </div>
 
-                    <a href="#sentidos" class="btn btn-secondary">
-                        Descubrir los sentidos
-                    </a>
+                    <div>
+                        <strong>Docente evaluador</strong>
+                        <p>
+                            Iván Padilla
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="question-box">
+
+                    <span>
+                        PREGUNTA ORIENTADORA
+                    </span>
+
+                    <h2>
+                        ¿Cuáles son los sentidos
+                        de la epistemología?
+                    </h2>
 
                 </div>
 
-                <div class="hero-question">
+                <button
+                    id="btnExplorar"
+                    class="primary-button">
 
-                    <span>Pregunta orientadora</span>
+                    Explorar el blog →
 
-                    <p>
-                        ¿Cuáles son los sentidos de la epistemología
-                        y cómo se diferencian los discursos epistemológicos
-                        de las discusiones científicas en las ciencias
-                        humanas y sociales?
-                    </p>
-
-                </div>
+                </button>
 
             </div>
 
@@ -111,138 +147,94 @@
              INTRODUCCIÓN
         ================================================== -->
 
-        <section class="section introduction">
+        <section id="epistemologia"
+            class="content-section">
 
-            <div class="container narrow">
+            <div class="section-heading">
 
-                <span class="section-number">
-                    01 / INTRODUCCIÓN
-                </span>
-
-                <h2>
-                    Pensar el conocimiento
-                </h2>
-
-                <p>
-                    La epistemología constituye un campo de reflexión
-                    dedicado al conocimiento, sus posibilidades, sus
-                    fundamentos, sus métodos, sus límites y sus criterios
-                    de validez. Más que una simple definición de ciencia,
-                    la epistemología permite formular preguntas acerca de
-                    cómo conocemos, qué razones justifican aquello que
-                    consideramos conocimiento y bajo qué condiciones una
-                    afirmación puede ser aceptada como válida.
-                </p>
-
-                <p>
-                    Desde esta perspectiva, estudiar epistemología implica
-                    reconocer que la producción científica no es solamente
-                    una acumulación de datos. También involucra problemas
-                    conceptuales, metodológicos, históricos y sociales.
-                    Esta consideración adquiere particular importancia
-                    cuando se analizan las ciencias humanas y sociales,
-                    debido a que su objeto de estudio se relaciona con
-                    sujetos, significados, contextos, prácticas culturales
-                    e instituciones.
-                </p>
-
-                <div class="highlight-box">
-
-                    <strong>
-                        Idea central
-                    </strong>
-
-                    <p>
-                        La epistemología no solo pregunta
-                        <em>qué conocemos</em>, sino también
-                        <em>cómo justificamos aquello que afirmamos conocer</em>.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =================================================
-             ¿QUÉ ES LA EPISTEMOLOGÍA?
-        ================================================== -->
-
-        <section id="epistemologia" class="section dark-section">
-
-            <div class="container">
-
-                <span class="section-number">
-                    02 / EPISTEMOLOGÍA
-                </span>
+                <span>01</span>
 
                 <h2>
                     ¿Qué es la epistemología?
                 </h2>
 
-                <div class="two-column">
+            </div>
 
-                    <div>
+            <div class="two-column">
 
-                        <p>
-                            La epistemología puede entenderse como una
-                            reflexión crítica sobre el conocimiento y,
-                            especialmente, sobre las condiciones mediante
-                            las cuales se produce, valida, organiza y
-                            transforma el conocimiento científico.
-                        </p>
+                <div>
 
-                        <p>
-                            En este sentido, no se limita a preguntar si
-                            una afirmación es verdadera. También examina
-                            los procedimientos utilizados para construirla,
-                            las razones que permiten considerarla válida,
-                            los límites del conocimiento y las condiciones
-                            históricas y sociales en las cuales se produce.
-                        </p>
+                    <p>
+                        La epistemología constituye un campo de reflexión
+                        dedicado al conocimiento, sus posibilidades, sus
+                        condiciones de producción, sus formas de
+                        justificación y sus límites. Por esta razón,
+                        hablar de epistemología implica mucho más que
+                        formular una definición aislada: supone
+                        preguntarse cómo conocemos, qué consideramos
+                        conocimiento válido y bajo qué criterios una
+                        afirmación puede ser aceptada como científica.
+                    </p>
 
-                        <p>
-                            Por ello, la epistemología mantiene una relación
-                            estrecha con la investigación científica, pero
-                            no debe confundirse con ella. La investigación
-                            produce y analiza conocimiento sobre fenómenos
-                            determinados; la epistemología reflexiona
-                            críticamente sobre las condiciones y fundamentos
-                            de ese conocimiento.
-                        </p>
+                    <p>
+                        Jaramillo Echeverri (2003) presenta la epistemología
+                        como un espacio de reflexión en el que el
+                        investigador examina su propia relación con el
+                        conocimiento. Esta mirada resulta especialmente
+                        importante porque permite comprender que investigar
+                        no consiste solamente en recopilar información,
+                        sino también en cuestionar las maneras mediante
+                        las cuales interpretamos la realidad.
+                    </p>
 
+                    <p>
+                        Desde esta perspectiva, la epistemología tiene
+                        una dimensión individual y otra colectiva.
+                        El investigador reflexiona sobre sus propios
+                        supuestos, pero también participa en comunidades
+                        académicas donde las ideas son discutidas,
+                        contrastadas y sometidas a revisión.
+                    </p>
+
+                </div>
+
+                <div class="highlight-card">
+
+                    <div class="icon">
+                        ?
                     </div>
 
-                    <div class="concept-diagram">
+                    <h3>
+                        Una pregunta fundamental
+                    </h3>
 
-                        <div class="diagram-item">
-                            <span>01</span>
-                            <strong>Conocimiento</strong>
-                        </div>
+                    <p>
+                        No solamente preguntamos
+                        <strong>
+                            "¿qué conocemos?"
+                        </strong>,
+                        sino también:
+                    </p>
 
-                        <div class="diagram-arrow">↓</div>
+                    <ul>
 
-                        <div class="diagram-item">
-                            <span>02</span>
-                            <strong>Epistemología</strong>
-                        </div>
+                        <li>
+                            ¿Cómo sabemos que algo es verdadero?
+                        </li>
 
-                        <div class="diagram-arrow">↓</div>
+                        <li>
+                            ¿Cómo se construye el conocimiento?
+                        </li>
 
-                        <div class="diagram-item">
-                            <span>03</span>
-                            <strong>Ciencia</strong>
-                        </div>
+                        <li>
+                            ¿Qué criterios permiten validarlo?
+                        </li>
 
-                        <div class="diagram-arrow">↓</div>
+                        <li>
+                            ¿Cuáles son sus límites?
+                        </li>
 
-                        <div class="diagram-item">
-                            <span>04</span>
-                            <strong>Investigación</strong>
-                        </div>
-
-                    </div>
+                    </ul>
 
                 </div>
 
@@ -255,141 +247,186 @@
              SENTIDOS DE LA EPISTEMOLOGÍA
         ================================================== -->
 
-        <section id="sentidos" class="section">
+        <section id="sentidos"
+            class="content-section alternate">
 
-            <div class="container">
+            <div class="section-heading">
 
-                <span class="section-number">
-                    03 / SENTIDOS
-                </span>
+                <span>02</span>
 
                 <h2>
                     Los sentidos de la epistemología
                 </h2>
 
-                <p class="section-intro">
-                    La epistemología puede asumir diferentes sentidos
-                    dependiendo del problema que se pretende analizar.
-                    Estos sentidos se relacionan entre sí y permiten
-                    comprender la complejidad de la actividad científica.
+            </div>
+
+            <p class="section-intro">
+
+                La epistemología puede comprenderse desde diferentes
+                sentidos relacionados entre sí. Estos sentidos permiten
+                analizar el conocimiento como producto, como proceso,
+                como práctica social y como objeto de reflexión crítica.
+
+            </p>
+
+            <div class="cards-grid">
+
+                <article class="tarjeta">
+
+                    <div class="card-number">
+                        01
+                    </div>
+
+                    <h3>
+                        Sentido crítico
+                    </h3>
+
+                    <p>
+                        Examina los fundamentos de aquello que
+                        afirmamos conocer. Pregunta por las razones,
+                        evidencias, supuestos y procedimientos que
+                        sostienen una determinada afirmación.
+                    </p>
+
+                    <span class="card-action">
+                        Explorar →
+                    </span>
+
+                </article>
+
+
+                <article class="tarjeta">
+
+                    <div class="card-number">
+                        02
+                    </div>
+
+                    <h3>
+                        Sentido metodológico
+                    </h3>
+
+                    <p>
+                        Permite reflexionar sobre las estrategias
+                        utilizadas para producir conocimiento,
+                        incluyendo métodos, procedimientos,
+                        conceptos y criterios de validación.
+                    </p>
+
+                    <span class="card-action">
+                        Explorar →
+                    </span>
+
+                </article>
+
+
+                <article class="tarjeta">
+
+                    <div class="card-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Sentido histórico
+                    </h3>
+
+                    <p>
+                        Reconoce que las ciencias se desarrollan
+                        dentro de contextos históricos determinados.
+                        Las ideas científicas cambian y se transforman
+                        junto con las comunidades que las producen.
+                    </p>
+
+                    <span class="card-action">
+                        Explorar →
+                    </span>
+
+                </article>
+
+
+                <article class="tarjeta">
+
+                    <div class="card-number">
+                        04
+                    </div>
+
+                    <h3>
+                        Sentido social
+                    </h3>
+
+                    <p>
+                        Comprende el conocimiento científico como una
+                        actividad desarrollada por comunidades,
+                        instituciones e investigadores situados
+                        cultural e históricamente.
+                    </p>
+
+                    <span class="card-action">
+                        Explorar →
+                    </span>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CIENCIA Y EPISTEMOLOGÍA
+        ================================================== -->
+
+        <section class="content-section">
+
+            <div class="section-heading">
+
+                <span>03</span>
+
+                <h2>
+                    Epistemología y conocimiento científico
+                </h2>
+
+            </div>
+
+            <p>
+                La relación entre epistemología y ciencia es fundamental
+                porque permite analizar cómo se construye y valida el
+                conocimiento científico. La ciencia no puede entenderse
+                únicamente como un conjunto de resultados. También debe
+                analizarse como una actividad intelectual que utiliza
+                conceptos, métodos, problemas, instrumentos,
+                comunidades y criterios de evaluación.
+            </p>
+
+            <p>
+                García Jiménez (2008) propone una aproximación al concepto
+                de ciencia a partir de las contribuciones de Karl Popper,
+                Thomas Kuhn, Imre Lakatos y Paul Feyerabend. Su análisis
+                resulta particularmente relevante para las ciencias
+                sociales porque permite reconocer que existen diferentes
+                maneras de comprender la racionalidad científica.
+            </p>
+
+            <p>
+                En consecuencia, la epistemología no debe ser entendida
+                como una lista cerrada de reglas que todos los
+                investigadores deben aplicar de manera idéntica.
+                También puede entenderse como un espacio de discusión
+                acerca de los fundamentos, alcances y límites de las
+                diferentes formas de producir conocimiento.
+            </p>
+
+            <div class="quote-box">
+
+                <p>
+                    La reflexión epistemológica permite examinar
+                    críticamente las condiciones mediante las cuales
+                    producimos y justificamos conocimiento.
                 </p>
 
-
-                <div class="cards-grid">
-
-                    <article class="info-card">
-
-                        <span class="card-number">
-                            01
-                        </span>
-
-                        <h3>
-                            Reflexión sobre el conocimiento
-                        </h3>
-
-                        <p>
-                            Analiza cómo se construye el conocimiento,
-                            cuáles son sus posibilidades y cuáles son
-                            sus límites.
-                        </p>
-
-                    </article>
-
-
-                    <article class="info-card">
-
-                        <span class="card-number">
-                            02
-                        </span>
-
-                        <h3>
-                            Análisis de la ciencia
-                        </h3>
-
-                        <p>
-                            Examina los conceptos, métodos, procedimientos
-                            y criterios mediante los cuales se desarrolla
-                            la actividad científica.
-                        </p>
-
-                    </article>
-
-
-                    <article class="info-card">
-
-                        <span class="card-number">
-                            03
-                        </span>
-
-                        <h3>
-                            Validez del conocimiento
-                        </h3>
-
-                        <p>
-                            Pregunta por las razones que permiten justificar
-                            una afirmación y diferenciarla de una opinión
-                            o de una creencia no fundamentada.
-                        </p>
-
-                    </article>
-
-
-                    <article class="info-card">
-
-                        <span class="card-number">
-                            04
-                        </span>
-
-                        <h3>
-                            Límites del conocimiento
-                        </h3>
-
-                        <p>
-                            Examina aquello que puede ser conocido,
-                            las dificultades del conocimiento y los
-                            límites de los métodos empleados.
-                        </p>
-
-                    </article>
-
-
-                    <article class="info-card">
-
-                        <span class="card-number">
-                            05
-                        </span>
-
-                        <h3>
-                            Dimensión histórica
-                        </h3>
-
-                        <p>
-                            Considera que las formas de producir conocimiento
-                            científico también se transforman históricamente.
-                        </p>
-
-                    </article>
-
-
-                    <article class="info-card">
-
-                        <span class="card-number">
-                            06
-                        </span>
-
-                        <h3>
-                            Dimensión social
-                        </h3>
-
-                        <p>
-                            Considera la importancia de las comunidades,
-                            instituciones, prácticas y relaciones sociales
-                            en la producción y validación del conocimiento.
-                        </p>
-
-                    </article>
-
-                </div>
+                <small>
+                    Síntesis académica a partir de Jaramillo Echeverri
+                    (2003) y García Jiménez (2008).
+                </small>
 
             </div>
 
@@ -400,135 +437,118 @@
              AUTORES
         ================================================== -->
 
-        <section id="autores" class="section light-section">
+        <section id="autores"
+            class="content-section alternate">
 
-            <div class="container">
+            <div class="section-heading">
 
-                <span class="section-number">
-                    04 / DISCUSIONES EPISTEMOLÓGICAS
-                </span>
+                <span>04</span>
 
                 <h2>
-                    Cuatro perspectivas para pensar la ciencia
+                    Cuatro perspectivas epistemológicas
                 </h2>
 
-                <p class="section-intro">
-                    Las discusiones epistemológicas del siglo XX incorporaron
-                    diferentes propuestas acerca de la ciencia, sus métodos,
-                    sus criterios de validez y sus procesos de transformación.
-                </p>
+            </div>
+
+            <p class="section-intro">
+
+                Las propuestas de Popper, Kuhn, Lakatos y Feyerabend
+                muestran que la discusión sobre la ciencia no se limita
+                a una única concepción del conocimiento científico.
+
+            </p>
 
 
-                <div class="authors-grid">
-
-                    <article class="author-card">
-
-                        <div class="author-initial">
-                            P
-                        </div>
-
-                        <span>
-                            KARL POPPER
-                        </span>
-
-                        <h3>
-                            Falsabilidad
-                        </h3>
-
-                        <p>
-                            La propuesta de Popper concede un papel central
-                            a la posibilidad de someter las teorías a
-                            contrastación crítica.
-                        </p>
-
-                        <div class="concept-tag">
-                            Conjeturas y refutaciones
-                        </div>
-
-                    </article>
+            <div class="authors-grid">
 
 
-                    <article class="author-card">
+                <article class="author-card">
 
-                        <div class="author-initial">
-                            K
-                        </div>
+                    <span class="author-tag">
+                        KARL POPPER
+                    </span>
 
-                        <span>
-                            THOMAS KUHN
-                        </span>
+                    <h3>
+                        Falsación y crítica
+                    </h3>
 
-                        <h3>
-                            Paradigmas
-                        </h3>
+                    <p>
+                        Popper planteó que las teorías científicas deben
+                        exponerse a posibilidades de refutación. En lugar
+                        de considerar que una teoría queda definitivamente
+                        demostrada por acumular observaciones favorables,
+                        su propuesta enfatiza la importancia de formular
+                        explicaciones que puedan ser sometidas a pruebas
+                        críticas.
+                    </p>
 
-                        <p>
-                            Kuhn analiza el desarrollo histórico de las
-                            ciencias a partir de conceptos como paradigma,
-                            ciencia normal y revolución científica.
-                        </p>
-
-                        <div class="concept-tag">
-                            Revoluciones científicas
-                        </div>
-
-                    </article>
+                </article>
 
 
-                    <article class="author-card">
+                <article class="author-card">
 
-                        <div class="author-initial">
-                            L
-                        </div>
+                    <span class="author-tag">
+                        THOMAS KUHN
+                    </span>
 
-                        <span>
-                            IMRE LAKATOS
-                        </span>
+                    <h3>
+                        Paradigmas y cambios científicos
+                    </h3>
 
-                        <h3>
-                            Programas de investigación
-                        </h3>
+                    <p>
+                        Kuhn destacó el papel de los paradigmas y de las
+                        comunidades científicas en el desarrollo de la
+                        ciencia. Su propuesta permite observar que la
+                        actividad científica no se desarrolla siempre de
+                        manera lineal y acumulativa, sino que puede
+                        experimentar períodos de transformación profunda.
+                    </p>
 
-                        <p>
-                            Lakatos propone comprender la actividad científica
-                            mediante programas de investigación que poseen
-                            componentes teóricos relacionados entre sí.
-                        </p>
-
-                        <div class="concept-tag">
-                            Programas de investigación
-                        </div>
-
-                    </article>
+                </article>
 
 
-                    <article class="author-card">
+                <article class="author-card">
 
-                        <div class="author-initial">
-                            F
-                        </div>
+                    <span class="author-tag">
+                        IMRE LAKATOS
+                    </span>
 
-                        <span>
-                            PAUL FEYERABEND
-                        </span>
+                    <h3>
+                        Programas de investigación
+                    </h3>
 
-                        <h3>
-                            Pluralismo metodológico
-                        </h3>
+                    <p>
+                        Lakatos desarrolló una propuesta que buscó
+                        establecer un diálogo entre elementos del
+                        racionalismo crítico y la dimensión histórica
+                        de la ciencia. Su concepto de programas de
+                        investigación permite analizar conjuntos de
+                        teorías que evolucionan a través del tiempo.
+                    </p>
 
-                        <p>
-                            Feyerabend cuestiona la existencia de un único
-                            procedimiento metodológico aplicable de manera
-                            universal a toda actividad científica.
-                        </p>
+                </article>
 
-                        <div class="concept-tag">
-                            Pluralismo
-                        </div>
 
-                    </article>
+                <article class="author-card">
 
-                </div>
+                    <span class="author-tag">
+                        PAUL FEYERABEND
+                    </span>
+
+                    <h3>
+                        Pluralismo epistemológico
+                    </h3>
+
+                    <p>
+                        Feyerabend cuestionó la existencia de un único
+                        método científico universal. Su pensamiento
+                        llamó la atención sobre la diversidad de
+                        estrategias presentes en la historia de la
+                        ciencia y defendió la importancia de considerar
+                        diferentes perspectivas y procedimientos.
+                    </p>
+
+                </article>
 
             </div>
 
@@ -539,227 +559,82 @@
              CIENCIAS HUMANAS Y SOCIALES
         ================================================== -->
 
-        <section id="ciencias" class="section">
+        <section id="ciencias-sociales"
+            class="content-section">
 
-            <div class="container">
+            <div class="section-heading">
 
-                <span class="section-number">
-                    05 / CIENCIAS HUMANAS Y SOCIALES
-                </span>
+                <span>05</span>
 
                 <h2>
-                    ¿Qué cambia cuando estudiamos fenómenos humanos?
+                    Epistemología en las ciencias humanas y sociales
                 </h2>
 
-                <p class="section-intro">
-                    Las ciencias humanas y sociales estudian fenómenos
-                    relacionados con sujetos, grupos, instituciones,
-                    relaciones sociales, culturas e interpretaciones.
-                    Esto genera problemas epistemológicos específicos.
-                </p>
+            </div>
 
+            <div class="two-column">
 
-                <div class="comparison">
-
-                    <div class="comparison-side">
-
-                        <h3>
-                            Explicación
-                        </h3>
-
-                        <ul>
-
-                            <li>
-                                Relaciones entre variables
-                            </li>
-
-                            <li>
-                                Regularidades
-                            </li>
-
-                            <li>
-                                Patrones observables
-                            </li>
-
-                            <li>
-                                Contrastación empírica
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-
-                    <div class="comparison-divider">
-                        VS
-                    </div>
-
-
-                    <div class="comparison-side">
-
-                        <h3>
-                            Comprensión
-                        </h3>
-
-                        <ul>
-
-                            <li>
-                                Significados
-                            </li>
-
-                            <li>
-                                Contextos
-                            </li>
-
-                            <li>
-                                Experiencias
-                            </li>
-
-                            <li>
-                                Interpretación
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                </div>
-
-
-                <div class="highlight-box">
-
-                    <strong>
-                        Una distinción importante
-                    </strong>
+                <div>
 
                     <p>
-                        Explicar y comprender no necesariamente constituyen
-                        alternativas excluyentes. Dependiendo del problema
-                        de investigación, pueden existir relaciones entre
-                        diferentes estrategias metodológicas.
+                        Las ciencias humanas y sociales estudian fenómenos
+                        relacionados con sujetos, grupos, instituciones,
+                        culturas, relaciones sociales e исторias
+                        colectivas. Esta condición introduce desafíos
+                        epistemológicos específicos, pues el investigador
+                        trabaja con realidades en las que los sujetos
+                        interpretan, transforman y atribuyen significados
+                        a sus propias experiencias.
+                    </p>
+
+                    <p>
+                        Esto no significa que las ciencias sociales
+                        carezcan de criterios de rigor. Por el contrario,
+                        implica discutir cuáles son los criterios más
+                        adecuados para estudiar fenómenos complejos y
+                        contextuales.
+                    </p>
+
+                    <p>
+                        García Jiménez (2008) señala que las discusiones
+                        epistemológicas adquieren especial importancia
+                        en el ámbito social debido a los debates sobre
+                        sus fundamentos y sobre las diferentes maneras
+                        de concebir la ciencia.
                     </p>
 
                 </div>
 
-            </div>
-
-        </section>
-
-
-        <!-- =================================================
-             EXPLICAR VS COMPRENDER
-        ================================================== -->
-
-        <section id="explicar-comprender" class="section dark-section">
-
-            <div class="container">
-
-                <span class="section-number">
-                    06 / PROBLEMA EPISTEMOLÓGICO
-                </span>
-
-                <h2>
-                    Explicar, comprender e interpretar
-                </h2>
-
-
-                <div class="flow">
-
-                    <div class="flow-item">
-                        <span>01</span>
-                        <strong>Fenómeno social</strong>
-                        <small>
-                            Un acontecimiento, práctica o experiencia.
-                        </small>
-                    </div>
-
-                    <div class="flow-arrow">
-                        →
-                    </div>
-
-                    <div class="flow-item">
-                        <span>02</span>
-                        <strong>Pregunta</strong>
-                        <small>
-                            ¿Qué queremos conocer?
-                        </small>
-                    </div>
-
-                    <div class="flow-arrow">
-                        →
-                    </div>
-
-                    <div class="flow-item">
-                        <span>03</span>
-                        <strong>Método</strong>
-                        <small>
-                            Estrategias para producir evidencia.
-                        </small>
-                    </div>
-
-                    <div class="flow-arrow">
-                        →
-                    </div>
-
-                    <div class="flow-item">
-                        <span>04</span>
-                        <strong>Interpretación</strong>
-                        <small>
-                            Construcción de conocimiento.
-                        </small>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =================================================
-             REFLEXIÓN
-        ================================================== -->
-
-        <section id="reflexion" class="section reflection">
-
-            <div class="container narrow">
-
-                <span class="section-number">
-                    07 / REFLEXIÓN
-                </span>
-
-                <h2>
-                    La ciencia como práctica crítica
-                </h2>
-
-                <p>
-                    Pensar epistemológicamente significa adoptar una actitud
-                    crítica frente a aquello que se presenta como conocimiento.
-                    Esta actitud no supone rechazar la ciencia, sino comprender
-                    mejor sus procedimientos, sus fundamentos, sus posibilidades
-                    y sus límites.
-                </p>
-
-                <p>
-                    En las ciencias humanas y sociales, esta reflexión adquiere
-                    una importancia particular porque el investigador estudia
-                    realidades en las que participa el ser humano. Las categorías,
-                    conceptos, valores, contextos históricos y relaciones sociales
-                    pueden influir en la manera en que se formula un problema y
-                    se interpreta la evidencia.
-                </p>
-
-                <div class="final-question">
-
-                    <span>
-                        PARA PENSAR
-                    </span>
+                <div class="diagram-card">
 
                     <h3>
-                        ¿Es posible producir conocimiento científico sin
-                        cuestionar los propios supuestos desde los cuales
-                        investigamos?
+                        El conocimiento social
                     </h3>
+
+                    <div class="diagram-item">
+                        <span>01</span>
+                        Contexto histórico
+                    </div>
+
+                    <div class="diagram-item">
+                        <span>02</span>
+                        Cultura
+                    </div>
+
+                    <div class="diagram-item">
+                        <span>03</span>
+                        Sujetos
+                    </div>
+
+                    <div class="diagram-item">
+                        <span>04</span>
+                        Interpretación
+                    </div>
+
+                    <div class="diagram-item">
+                        <span>05</span>
+                        Reflexividad
+                    </div>
 
                 </div>
 
@@ -769,61 +644,407 @@
 
 
         <!-- =================================================
-             ACTIVIDAD INTERACTIVA
+             DISCURSOS
         ================================================== -->
 
-        <section class="section quiz-section">
+        <section class="content-section alternate">
 
-            <div class="container narrow">
+            <div class="section-heading">
 
-                <span class="section-number">
-                    08 / COMPRUEBA LO APRENDIDO
-                </span>
+                <span>06</span>
 
                 <h2>
-                    Mini reto epistemológico
+                    Diferentes discursos epistemológicos
                 </h2>
 
-                <div class="quiz-card">
+            </div>
 
-                    <p class="quiz-question">
-                        ¿Cuál de los siguientes conceptos se relaciona
-                        directamente con la propuesta epistemológica
-                        de Karl Popper?
-                    </p>
+            <p>
+                Los discursos epistemológicos pueden diferenciarse
+                por la manera en que responden a preguntas relacionadas
+                con la verdad, la objetividad, el método, la evidencia,
+                la historia y el papel del investigador.
+            </p>
 
-                    <div class="quiz-options">
 
-                        <button class="quiz-option"
-                                data-answer="false">
-                            A. Paradigma
-                        </button>
+            <div class="comparison-table">
 
-                        <button class="quiz-option"
-                                data-answer="true">
-                            B. Falsabilidad
-                        </button>
+                <div class="table-row table-header">
 
-                        <button class="quiz-option"
-                                data-answer="false">
-                            C. Programa de investigación
-                        </button>
-
-                        <button class="quiz-option"
-                                data-answer="false">
-                            D. Pluralismo metodológico
-                        </button>
-
+                    <div>
+                        Perspectiva
                     </div>
 
-                    <div id="quizResult"
-                         class="quiz-result"
-                         aria-live="polite">
+                    <div>
+                        Pregunta central
+                    </div>
+
+                    <div>
+                        Concepto destacado
+                    </div>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <div>
+                        Popper
+                    </div>
+
+                    <div>
+                        ¿Puede una teoría ser sometida a crítica?
+                    </div>
+
+                    <div>
+                        Falsación
+                    </div>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <div>
+                        Kuhn
+                    </div>
+
+                    <div>
+                        ¿Cómo cambian las comunidades científicas?
+                    </div>
+
+                    <div>
+                        Paradigma
+                    </div>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <div>
+                        Lakatos
+                    </div>
+
+                    <div>
+                        ¿Cómo evolucionan las teorías?
+                    </div>
+
+                    <div>
+                        Programa de investigación
+                    </div>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <div>
+                        Feyerabend
+                    </div>
+
+                    <div>
+                        ¿Existe un único método científico?
+                    </div>
+
+                    <div>
+                        Pluralismo
                     </div>
 
                 </div>
 
             </div>
+
+        </section>
+
+
+        <!-- =================================================
+             MULTIMEDIA
+        ================================================== -->
+
+        <section class="content-section multimedia">
+
+            <div class="section-heading">
+
+                <span>07</span>
+
+                <h2>
+                    Epistemología y recursos multimedia
+                </h2>
+
+            </div>
+
+            <p>
+                El blog incorpora una dimensión multimedia para favorecer
+                diferentes formas de aproximación al conocimiento.
+                El uso de recursos visuales, sonoros y audiovisuales
+                permite complementar la argumentación escrita y
+                presentar la reflexión epistemológica desde diferentes
+                lenguajes.
+            </p>
+
+
+            <div class="media-grid">
+
+                <div class="media-card">
+
+                    <div class="media-icon">
+                        ▶
+                    </div>
+
+                    <h3>
+                        Video
+                    </h3>
+
+                    <p>
+                        Espacio destinado a incorporar un recurso
+                        audiovisual relacionado con epistemología,
+                        filosofía de la ciencia y ciencias sociales.
+                    </p>
+
+                    <span>
+                        Recurso audiovisual
+                    </span>
+
+                </div>
+
+
+                <div class="media-card">
+
+                    <div class="media-icon">
+                        ♪
+                    </div>
+
+                    <h3>
+                        Audio
+                    </h3>
+
+                    <p>
+                        Espacio destinado a incorporar una narración
+                        o reflexión sonora sobre los sentidos de la
+                        epistemología.
+                    </p>
+
+                    <span>
+                        Recurso sonoro
+                    </span>
+
+                </div>
+
+
+                <div class="media-card">
+
+                    <div class="media-icon">
+                        ◉
+                    </div>
+
+                    <h3>
+                        Imagen
+                    </h3>
+
+                    <p>
+                        Los recursos visuales permiten representar
+                        conceptos como conocimiento, ciencia,
+                        investigación, paradigmas y reflexión crítica.
+                    </p>
+
+                    <span>
+                        Recurso visual
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             PREGUNTAS INTERACTIVAS
+        ================================================== -->
+
+        <section class="content-section">
+
+            <div class="section-heading">
+
+                <span>08</span>
+
+                <h2>
+                    Preguntas para la reflexión
+                </h2>
+
+            </div>
+
+            <div class="accordion">
+
+                <div class="accordion-item">
+
+                    <button class="pregunta">
+                        ¿Existe una única manera de producir conocimiento?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+
+                        <p>
+                            Las discusiones epistemológicas muestran que
+                            existen diferentes concepciones acerca de la
+                            producción científica. Las propuestas de
+                            Popper, Kuhn, Lakatos y Feyerabend permiten
+                            observar diferentes aproximaciones al método,
+                            la crítica, la historia y el pluralismo.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="accordion-item">
+
+                    <button class="pregunta">
+                        ¿Por qué es importante la epistemología?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+
+                        <p>
+                            Porque permite analizar críticamente las
+                            condiciones en las que producimos conocimiento,
+                            evitando asumir que nuestras formas de
+                            investigar son neutrales, naturales o
+                            incuestionables.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="accordion-item">
+
+                    <button class="pregunta">
+                        ¿Qué aporta a las ciencias humanas y sociales?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+
+                        <p>
+                            Aporta herramientas para reflexionar sobre
+                            los métodos, conceptos, sujetos, contextos
+                            y criterios de validación empleados para
+                            estudiar fenómenos sociales y culturales.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             REFLEXIÓN FINAL
+        ================================================== -->
+
+        <section id="reflexion"
+            class="reflection-section">
+
+            <div class="reflection-content">
+
+                <span>
+                    REFLEXIÓN FINAL
+                </span>
+
+                <h2>
+                    Conocer también significa
+                    preguntarnos cómo conocemos.
+                </h2>
+
+                <p>
+                    La epistemología adquiere sentido cuando transforma
+                    la investigación en una práctica reflexiva. No se
+                    trata únicamente de producir respuestas, sino de
+                    comprender las condiciones que hacen posible formular
+                    preguntas, seleccionar métodos, interpretar
+                    evidencias y construir explicaciones.
+                </p>
+
+                <button
+                    id="btnReflexion"
+                    class="primary-button">
+
+                    Mostrar reflexión
+
+                </button>
+
+                <div
+                    id="mensajeReflexion"
+                    class="reflection-message">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CONCLUSIÓN
+        ================================================== -->
+
+        <section class="content-section">
+
+            <div class="section-heading">
+
+                <span>09</span>
+
+                <h2>
+                    Conclusión
+                </h2>
+
+            </div>
+
+            <p>
+                Los sentidos de la epistemología se relacionan con la
+                necesidad de comprender, analizar y cuestionar las formas
+                mediante las cuales construimos conocimiento. Desde la
+                reflexión del investigador planteada por Jaramillo
+                Echeverri hasta las diferentes concepciones de ciencia
+                revisadas por García Jiménez, la epistemología aparece
+                como una actividad crítica que permite examinar los
+                fundamentos de la investigación.
+            </p>
+
+            <p>
+                Las perspectivas de Popper, Kuhn, Lakatos y Feyerabend
+                muestran que la ciencia puede ser estudiada desde
+                diferentes enfoques. Mientras Popper enfatiza la crítica
+                y la posibilidad de refutación, Kuhn analiza la dinámica
+                histórica de las comunidades científicas; Lakatos propone
+                estudiar programas de investigación y Feyerabend cuestiona
+                la existencia de un procedimiento metodológico universal.
+            </p>
+
+            <p>
+                Para las ciencias humanas y sociales, esta diversidad
+                epistemológica resulta especialmente significativa porque
+                permite reconocer la complejidad de los fenómenos
+                estudiados. Los sujetos, las culturas, las instituciones
+                y los contextos históricos forman parte de las realidades
+                que la investigación busca comprender.
+            </p>
+
+            <p>
+                En consecuencia, la epistemología no debe considerarse
+                solamente como una disciplina teórica alejada de la
+                práctica investigativa. También constituye una herramienta
+                para desarrollar una actitud crítica, responsable y
+                reflexiva frente al conocimiento.
+            </p>
 
         </section>
 
@@ -832,114 +1053,68 @@
              REFERENCIAS
         ================================================== -->
 
-        <section id="referencias" class="section references">
+        <section id="referencias"
+            class="content-section alternate">
 
-            <div class="container">
+            <div class="section-heading">
 
-                <span class="section-number">
-                    09 / REFERENCIAS
-                </span>
+                <span>10</span>
 
                 <h2>
-                    Fuentes consultadas
+                    Referencias
                 </h2>
 
-                <div class="references-list">
+            </div>
 
-                    <article class="reference-item">
+            <div class="references">
 
-                        <p>
-                            Facuse, M. (2003).
-                            <em>Una epistemología pluralista</em>.
-                            Revista Electrónica de Epistemología de
-                            Ciencias Sociales, 17, 148–161.
-                        </p>
+                <p>
+                    García Jiménez, L. (2008).
+                    Aproximación epistemológica al concepto de ciencia:
+                    una propuesta básica a partir de Kuhn, Popper,
+                    Lakatos y Feyerabend.
+                    <em>Andamios, 4</em>(8), 185–212.
+                    https://doi.org/10.29092/uacm.v4i8.307
+                </p>
 
-                    </article>
+                <p>
+                    Jaramillo Echeverri, L. G. (2003).
+                    ¿Qué es epistemología?
+                    <em>Cinta de Moebio, 18</em>, 174–178.
+                    Universidad de Chile.
+                </p>
 
+                <p>
+                    Kuhn, T. S. (1962).
+                    <em>
+                        The structure of scientific revolutions
+                    </em>.
+                    University of Chicago Press.
+                </p>
 
-                    <article class="reference-item">
+                <p>
+                    Lakatos, I. (1978).
+                    <em>
+                        The methodology of scientific research programmes
+                    </em>.
+                    Cambridge University Press.
+                </p>
 
-                        <p>
-                            García Jiménez, L. (2008).
-                            Aproximación epistemológica al concepto de
-                            ciencia: una propuesta básica a partir de Kuhn,
-                            Popper, Lakatos y Feyerabend.
-                            <em>Andamios, 4</em>(8), 185–212.
-                        </p>
+                <p>
+                    Popper, K. R. (2002).
+                    <em>
+                        The logic of scientific discovery
+                    </em>.
+                    Routledge.
+                </p>
 
-                    </article>
-
-
-                    <article class="reference-item">
-
-                        <p>
-                            Jaramillo Echeverri, L. G. (2003).
-                            ¿Qué es epistemología?
-                            <em>Cinta de Moebio, 18</em>.
-                        </p>
-
-                    </article>
-
-
-                    <article class="reference-item">
-
-                        <p>
-                            Kuhn, T. S. (2012).
-                            <em>La estructura de las revoluciones científicas</em>.
-                            Fondo de Cultura Económica.
-                        </p>
-
-                    </article>
-
-
-                    <article class="reference-item">
-
-                        <p>
-                            Lakatos, I. (1978).
-                            <em>The methodology of scientific research programmes</em>.
-                            Cambridge University Press.
-                        </p>
-
-                    </article>
-
-
-                    <article class="reference-item">
-
-                        <p>
-                            Popper, K. R. (2002).
-                            <em>The logic of scientific discovery</em>.
-                            Routledge.
-                        </p>
-
-                    </article>
-
-
-                    <article class="reference-item">
-
-                        <p>
-                            Feyerabend, P. (2010).
-                            <em>Against method</em>.
-                            Verso.
-                        </p>
-
-                    </article>
-
-                </div>
-
-                <div class="source-note">
-
-                    <strong>
-                        Nota académica
-                    </strong>
-
-                    <p>
-                        Las referencias deben ser verificadas y ajustadas
-                        a la edición específica consultada antes de la
-                        entrega final, de acuerdo con las normas APA 7.
-                    </p>
-
-                </div>
+                <p>
+                    Feyerabend, P. (2010).
+                    <em>
+                        Against method
+                    </em>.
+                    Verso.
+                </p>
 
             </div>
 
@@ -954,38 +1129,55 @@
 
     <footer class="site-footer">
 
-        <div class="container footer-content">
+        <div class="footer-content">
 
-            <div>
+            <h3>
+                Los sentidos de la epistemología
+            </h3>
 
-                <strong>
-                    EPISTEMOLOGÍA
-                </strong>
+            <p>
+                Blog académico interactivo
+            </p>
 
-                <p>
-                    Blog académico interactivo.
-                </p>
+            <p>
+                <strong>Autora:</strong>
+                Liseth Mariana Niño Hernández
+            </p>
 
-            </div>
+            <p>
+                <strong>Docente evaluador:</strong>
+                Iván Padilla
+            </p>
 
-            <div>
-
-                <p>
-                    Ciencias humanas y sociales
-                </p>
-
-                <p>
-                    Proyecto académico
-                </p>
-
-            </div>
+            <p>
+                © <span id="anio"></span>
+                Liseth Mariana Niño Hernández.
+                Todos los derechos académicos reservados.
+            </p>
 
         </div>
 
     </footer>
 
 
+    <!-- =====================================================
+         BOTÓN VOLVER ARRIBA
+    ====================================================== -->
+
+    <button
+        id="btnArriba"
+        class="back-to-top"
+        aria-label="Volver arriba">
+
+        ↑
+
+    </button>
+
+
+    <!-- JAVASCRIPT -->
+
     <script src="script.js"></script>
 
 </body>
+
 </html>
